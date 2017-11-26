@@ -46,7 +46,7 @@ class App extends Component {
       <div className="App">
         <h1>ravenous</h1>
         <SearchBar searchY={this.searchYelp} />
-        <BusinessList businesses={this.searchYelp.businesses} />
+        <BusinessList businesses={this.state.businesses} />
       </div>
     );
   }
